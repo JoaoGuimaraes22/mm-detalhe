@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "name": "Business Name",
+    "title": "Business Name | City",
+    "description": "Welcome to my site.",
+    "phone": "",
+    "email": "",
+    "address": "",
+    "type": "LocalBusiness"
+  },
+  "home": {
+    "title": "Welcome",
+    "description": "This is the starting point of your project. Edit this page to get started."
+  }
+}
