@@ -32,7 +32,7 @@
     "stats": [
       { "value": "166+", "label": "Avaliações" },
       { "value": "5★", "label": "Classificação" },
-      { "value": "5+", "label": "Anos" }
+      { "value": "8+", "label": "Anos" }
     ],
     "ticker": [
       { "text": "LAVAGEM EXTERIOR" },
@@ -49,7 +49,7 @@
     "items": [
       { "label": "Carros Detalhados", "target": 2000, "suffix": "+" },
       { "label": "Taxa de Satisfação", "target": 100, "suffix": "%" },
-      { "label": "Anos de Experiência", "target": 5, "suffix": "+" },
+      { "label": "Anos de Experiência", "target": 8, "suffix": "+" },
       { "label": "Avaliações 5 Estrelas", "target": 166, "suffix": "+" }
     ]
   },
@@ -64,7 +64,7 @@
         "image": "/services/exterior-wash.webp"
       },
       {
-        "icon": "🧹",
+        "icon": "✨",
         "title": "Lavagem Interior",
         "description": "Aspiração profunda, limpeza de tecidos e couro, tratamento de superfícies e eliminação de odores.",
         "image": "/services/interior-detail.webp"
@@ -82,13 +82,13 @@
         "image": "/services/ceramic-coating.webp"
       },
       {
-        "icon": "💎",
+        "icon": "🔄",
         "title": "Detalhe Completo",
         "description": "O nosso serviço mais completo: interior + exterior + polimento. Transformação total do seu veículo.",
         "image": "/services/full-detail.webp"
       },
       {
-        "icon": "🧼",
+        "icon": "🪑",
         "title": "Higienização",
         "description": "Sanitização completa do habitáculo, remoção de pêlos de animais, bactérias e alérgenos.",
         "image": "/services/upholstery-cleaning.webp"
@@ -151,11 +151,10 @@
         "popular": true,
         "features": [
           "Tudo da Lavagem Básica",
+          "Descontaminação de pintura",
           "Limpeza profunda do interior",
-          "Tratamento de couro/tecido",
-          "Polimento de um passo",
-          "Tratamento dos plásticos",
-          "Ambientador premium"
+          "Tratamento de couro",
+          "Limpeza do motor"
         ],
         "cta": "Reservar"
       },
@@ -169,7 +168,7 @@
           "Correção de pintura completa",
           "Polimento multi-passo",
           "Revestimento cerâmico profissional",
-          "Proteção até 12 meses",
+          "Proteção de 2 anos",
           "Brilho hidrofóbico duradouro"
         ],
         "cta": "Reservar"
@@ -183,7 +182,7 @@
     "stats": [
       { "value": "5★", "label": "Avaliação" },
       { "value": "166+", "label": "Avaliações" },
-      { "value": "5+", "label": "Anos" }
+      { "value": "8+", "label": "Anos" }
     ]
   },
   "galleryStrip": {
@@ -239,8 +238,22 @@
         "rating": 5
       },
       {
+        "quote": "Trabalho impecável, indiquei através do anúncio que encontrei à minha familiar e ficou espetacular. Super Profissional! Não me arrependo da indicação e vou recorrer aos serviços futuramente.",
+        "name": "Tiago Soares Lopes",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
         "quote": "Vieram buscar e deixar o carro! Trabalho como petsitter e o meu carro estava carregado de pêlos (ao ponto de nem se ver o chão) e foi entregue praticamente sem pêlos. Recomendo MUITO!!!!!",
         "name": "PatriciaMartins25",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Excelente serviço! Atendimento 5 estrelas e limpeza impecável. O carro chegou num estado bastante complicado e os profissionais deixaram-no impecável! Ganharam um cliente regular.",
+        "name": "Pedro Teixeira",
         "role": "Avaliação Google",
         "avatar": null,
         "rating": 5
@@ -272,7 +285,7 @@
       },
       {
         "question": "Quanto tempo dura o revestimento cerâmico?",
-        "answer": "O nosso revestimento cerâmico profissional protege a pintura durante 6 a 12 meses, dependendo das condições de utilização e exposição."
+        "answer": "O nosso revestimento cerâmico profissional oferece mais de 2 anos de proteção com acabamento hidrofóbico que repele água, sujidade e danos UV. Manutenção adequada prolonga ainda mais a sua duração."
       },
       {
         "question": "Fazem orçamentos gratuitos?",

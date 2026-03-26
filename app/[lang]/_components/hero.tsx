@@ -78,7 +78,7 @@ export default function Hero({ dict }: { dict: Dict }) {
           {/* Title */}
           <h1 className="overflow-hidden">
             <span
-              className="block text-6xl font-black uppercase tracking-wide text-white sm:text-7xl lg:text-9xl"
+              className="block text-6xl font-black uppercase tracking-wide text-white sm:text-7xl lg:text-8xl"
               style={
                 visible
                   ? { animation: "hero-up 0.9s cubic-bezier(0.16,1,0.3,1) 0.1s both" }
@@ -88,7 +88,7 @@ export default function Hero({ dict }: { dict: Dict }) {
               {dict.title_line1}
             </span>
             <span
-              className="block text-6xl font-black uppercase tracking-wide sm:text-7xl lg:text-9xl"
+              className="block text-6xl font-black uppercase tracking-wide sm:text-7xl lg:text-8xl"
               style={
                 visible
                   ? {
