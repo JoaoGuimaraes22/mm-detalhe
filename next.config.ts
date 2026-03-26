@@ -11,6 +11,7 @@ const cspHeader = `
   object-src 'none';
   base-uri 'self';
   form-action 'self';
+  frame-src 'self' https://www.google.com https://maps.google.com;
   frame-ancestors 'none';
   upgrade-insecure-requests;
 `;

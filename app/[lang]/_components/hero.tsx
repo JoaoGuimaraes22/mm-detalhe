@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 
@@ -47,14 +46,15 @@ export default function Hero({ dict }: { dict: Dict }) {
           style={{ y: bgY }}
         >
           <div className="absolute inset-0" style={{ top: "-15%", bottom: "-15%" }}>
-            <Image
-              src="/hero/hero-bg.webp"
-              alt=""
-              fill
-              priority
-              className="object-cover"
-              sizes="100vw"
-            />
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 h-full w-full object-cover"
+            >
+              <source src="/hero/hero-video.mp4" type="video/mp4" />
+            </video>
           </div>
         </motion.div>
 
