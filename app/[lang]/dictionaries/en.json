@@ -61,37 +61,37 @@
         "icon": "🚿",
         "title": "Exterior Wash",
         "description": "Complete exterior wash, decontamination, wheel cleaning, and hand dry — your car gleaming from every angle.",
-        "image": "/services/exterior-wash.jpg"
+        "image": "/services/exterior-wash.webp"
       },
       {
         "icon": "✨",
         "title": "Interior Detail",
         "description": "Deep vacuum, dashboard treatment, fabric and leather conditioning, and full sanitization — a spotless cabin.",
-        "image": "/services/interior-detail.jpg"
+        "image": "/services/interior-detail.webp"
       },
       {
         "icon": "💎",
         "title": "Paint Correction",
         "description": "Machine polishing to remove swirl marks, scratches, and oxidation — restoring your paint to a mirror finish.",
-        "image": "/services/paint-correction.jpg"
+        "image": "/services/paint-correction.webp"
       },
       {
         "icon": "🛡️",
         "title": "Ceramic Coating",
         "description": "Professional-grade ceramic coating for long-term paint protection, hydrophobic finish, and showroom shine that lasts years.",
-        "image": "/services/ceramic-coating.jpg"
+        "image": "/services/ceramic-coating.webp"
       },
       {
         "icon": "🔄",
         "title": "Full Detail",
         "description": "The complete transformation — exterior wash, interior deep clean, paint correction, and finishing touches. Inside and out.",
-        "image": "/services/full-detail.jpg"
+        "image": "/services/full-detail.webp"
       },
       {
         "icon": "🪑",
         "title": "Upholstery Cleaning",
         "description": "Deep extraction cleaning for seats, carpets, and headliner. Pet hair removal, stain treatment, and deodorizing.",
-        "image": "/services/upholstery-cleaning.jpg"
+        "image": "/services/upholstery-cleaning.webp"
       }
     ]
   },
@@ -101,24 +101,24 @@
     "subtitle": "Drag to compare",
     "items": [
       {
-        "before": "/before-after/polish-before.jpg",
-        "after": "/before-after/polish-after.jpg",
-        "caption": "Paint Correction — Swirl marks removed, mirror finish restored"
+        "before": "/before-after/polish-before.webp",
+        "after": "/before-after/polish-after.webp",
+        "caption": "Paint Correction"
       },
       {
-        "before": "/before-after/interior-before.jpg",
-        "after": "/before-after/interior-after.jpg",
-        "caption": "Interior Detail — Deep cleaned and conditioned"
+        "before": "/before-after/interior-before.webp",
+        "after": "/before-after/interior-after.webp",
+        "caption": "Interior Sanitization"
       },
       {
-        "before": "/before-after/exterior-before.jpg",
-        "after": "/before-after/exterior-after.jpg",
-        "caption": "Full Detail — Complete exterior transformation"
+        "before": "/before-after/exterior-before.webp",
+        "after": "/before-after/exterior-after.webp",
+        "caption": "Exterior Polish"
       },
       {
-        "before": "/before-after/upholstery-before.jpg",
-        "after": "/before-after/upholstery-after.jpg",
-        "caption": "Upholstery Cleaning — Stains and pet hair removed"
+        "before": "/before-after/upholstery-before.webp",
+        "after": "/before-after/upholstery-after.webp",
+        "caption": "Upholstery Cleaning"
       }
     ]
   },
@@ -186,14 +186,14 @@
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/detail-closeup.jpg", "alt": "Close-up of polished paint reflection" },
-      { "src": "/gallery/interior-clean.jpg", "alt": "Freshly detailed car interior" },
-      { "src": "/gallery/ceramic-finish.jpg", "alt": "Ceramic coating water beading on hood" },
-      { "src": "/gallery/wheel-detail.jpg", "alt": "Wheel after deep cleaning" },
-      { "src": "/gallery/full-exterior.jpg", "alt": "Completed full exterior detail" },
-      { "src": "/gallery/leather-seats.jpg", "alt": "Conditioned leather seats" },
-      { "src": "/gallery/engine-bay.jpg", "alt": "Clean engine bay after detailing" },
-      { "src": "/gallery/final-result.jpg", "alt": "Car ready for delivery after full detail" }
+      { "src": "/gallery/detail-closeup.webp", "alt": "Close-up of polished paint reflection" },
+      { "src": "/gallery/interior-clean.webp", "alt": "Freshly detailed car interior" },
+      { "src": "/gallery/ceramic-finish.webp", "alt": "Ceramic coating water beading on hood" },
+      { "src": "/gallery/wheel-detail.webp", "alt": "Wheel after deep cleaning" },
+      { "src": "/gallery/full-exterior.webp", "alt": "Completed full exterior detail" },
+      { "src": "/gallery/leather-seats.webp", "alt": "Conditioned leather seats" },
+      { "src": "/gallery/engine-bay.webp", "alt": "Clean engine bay after detailing" },
+      { "src": "/gallery/final-result.webp", "alt": "Car ready for delivery after full detail" }
     ]
   },
   "reviews": {

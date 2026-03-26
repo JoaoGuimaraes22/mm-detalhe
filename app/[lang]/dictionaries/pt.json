@@ -61,37 +61,37 @@
         "icon": "🚿",
         "title": "Lavagem Exterior",
         "description": "Lavagem completa do exterior, descontaminação e secagem meticulosa. O primeiro passo para um acabamento perfeito.",
-        "image": "/services/exterior-wash.jpg"
+        "image": "/services/exterior-wash.webp"
       },
       {
         "icon": "🧹",
         "title": "Lavagem Interior",
         "description": "Aspiração profunda, limpeza de tecidos e couro, tratamento de superfícies e eliminação de odores.",
-        "image": "/services/interior-clean.jpg"
+        "image": "/services/interior-detail.webp"
       },
       {
         "icon": "✨",
         "title": "Polimento",
         "description": "Correção de pintura e polimento profissional para restaurar o brilho de fábrica e remover riscos.",
-        "image": "/services/polishing.jpg"
+        "image": "/services/paint-correction.webp"
       },
       {
         "icon": "🛡️",
         "title": "Revestimento Cerâmico",
         "description": "Proteção cerâmica de longa duração que repele água, sujidade e raios UV — brilho que dura meses.",
-        "image": "/services/ceramic-coating.jpg"
+        "image": "/services/ceramic-coating.webp"
       },
       {
         "icon": "💎",
         "title": "Detalhe Completo",
         "description": "O nosso serviço mais completo: interior + exterior + polimento. Transformação total do seu veículo.",
-        "image": "/services/full-detail.jpg"
+        "image": "/services/full-detail.webp"
       },
       {
         "icon": "🧼",
         "title": "Higienização",
         "description": "Sanitização completa do habitáculo, remoção de pêlos de animais, bactérias e alérgenos.",
-        "image": "/services/sanitization.jpg"
+        "image": "/services/upholstery-cleaning.webp"
       }
     ]
   },
@@ -101,18 +101,23 @@
     "subtitle": "Arraste para comparar",
     "items": [
       {
-        "before": "/before-after/interior-before.jpg",
-        "after": "/before-after/interior-after.jpg",
+        "before": "/before-after/polish-before.webp",
+        "after": "/before-after/polish-after.webp",
+        "caption": "Correção de Pintura"
+      },
+      {
+        "before": "/before-after/interior-before.webp",
+        "after": "/before-after/interior-after.webp",
         "caption": "Higienização de Interior"
       },
       {
-        "before": "/before-after/exterior-before.jpg",
-        "after": "/before-after/exterior-after.jpg",
+        "before": "/before-after/exterior-before.webp",
+        "after": "/before-after/exterior-after.webp",
         "caption": "Polimento Exterior"
       },
       {
-        "before": "/before-after/seats-before.jpg",
-        "after": "/before-after/seats-after.jpg",
+        "before": "/before-after/upholstery-before.webp",
+        "after": "/before-after/upholstery-after.webp",
         "caption": "Limpeza de Estofos"
       }
     ]
@@ -183,14 +188,14 @@
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/1.jpg", "alt": "Carro a brilhar após detalhe completo" },
-      { "src": "/gallery/2.jpg", "alt": "Polimento profissional de pintura" },
-      { "src": "/gallery/3.jpg", "alt": "Interior impecável após higienização" },
-      { "src": "/gallery/4.jpg", "alt": "Aplicação de revestimento cerâmico" },
-      { "src": "/gallery/5.jpg", "alt": "Limpeza profunda de estofos" },
-      { "src": "/gallery/6.jpg", "alt": "Acabamento final de detalhe exterior" },
-      { "src": "/gallery/7.jpg", "alt": "Bruno a trabalhar num veículo" },
-      { "src": "/gallery/8.jpg", "alt": "Resultado final — carro como novo" }
+      { "src": "/gallery/detail-closeup.webp", "alt": "Pormenor de pintura polida" },
+      { "src": "/gallery/interior-clean.webp", "alt": "Interior acabado de detalhar" },
+      { "src": "/gallery/ceramic-finish.webp", "alt": "Efeito hidrofóbico do revestimento cerâmico" },
+      { "src": "/gallery/wheel-detail.webp", "alt": "Jante após limpeza profunda" },
+      { "src": "/gallery/full-exterior.webp", "alt": "Detalhe exterior completo" },
+      { "src": "/gallery/leather-seats.webp", "alt": "Bancos em couro tratados" },
+      { "src": "/gallery/engine-bay.webp", "alt": "Compartimento do motor limpo" },
+      { "src": "/gallery/final-result.webp", "alt": "Carro pronto para entrega" }
     ]
   },
   "reviews": {

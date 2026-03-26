@@ -34,7 +34,7 @@ export default function About({
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
             <Image
-              src="/about/bruno.jpg"
+              src="/about/bruno.webp"
               alt="Bruno — M M Detalhe"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

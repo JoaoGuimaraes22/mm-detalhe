@@ -48,7 +48,7 @@ export default function Hero({ dict }: { dict: Dict }) {
         >
           <div className="absolute inset-0" style={{ top: "-15%", bottom: "-15%" }}>
             <Image
-              src="/hero/hero-bg.jpg"
+              src="/hero/hero-bg.webp"
               alt=""
               fill
               priority
