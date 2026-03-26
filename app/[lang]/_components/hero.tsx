@@ -59,7 +59,7 @@ export default function Hero({ dict }: { dict: Dict }) {
         </motion.div>
 
         {/* Dark overlay gradient */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-[#0a0a0a]/40" />
+        <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-[#0a0a0a] via-[#0a0a0a]/60 to-[#0a0a0a]/40" />
 
         {/* Subtle gold radial glow */}
         <div
@@ -162,9 +162,7 @@ export default function Hero({ dict }: { dict: Dict }) {
                       : { opacity: 0 }
                   }
                 >
-                  <div className="text-3xl font-black text-[#d4a853] sm:text-4xl">
-                    {stat.value}
-                  </div>
+                  <div className="text-3xl font-black text-[#d4a853] sm:text-4xl">{stat.value}</div>
                   <div className="mt-1 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-400">
                     {stat.label}
                   </div>
