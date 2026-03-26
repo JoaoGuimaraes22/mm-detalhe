@@ -27,7 +27,10 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "Content-Security-Policy",
-            value: cspHeader.replace(/\n/g, "").replace(/\s{2,}/g, " ").trim(),
+            value: cspHeader
+              .replace(/\n/g, "")
+              .replace(/\s{2,}/g, " ")
+              .trim(),
           },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "X-Content-Type-Options", value: "nosniff" },
