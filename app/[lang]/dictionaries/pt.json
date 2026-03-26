@@ -1,15 +1,328 @@
 {
   "metadata": {
-    "name": "Nome do Negócio",
-    "title": "Nome do Negócio | Cidade",
-    "description": "Bem-vindo ao meu site.",
-    "phone": "",
+    "name": "M M Detalhe Automóvel",
+    "title": "M M Detalhe Automóvel | São Domingos de Rana",
+    "description": "Serviço profissional de detalhe automóvel em São Domingos de Rana. Lavagem, polimento, revestimento cerâmico e higienização — perfeição em cada detalhe.",
+    "phone": "+351 932 739 365",
     "email": "",
-    "address": "",
-    "type": "LocalBusiness"
+    "address": "Estrada de Polima, R. Outeirinhos 171, 2785-545 São Domingos de Rana",
+    "type": "AutoRepair"
   },
-  "home": {
-    "title": "Bem-vindo",
-    "description": "Este e o ponto de partida do seu projeto. Edite esta pagina para comecar."
+  "navbar": {
+    "brand": "M M Detalhe",
+    "cta": "Pedir Orçamento",
+    "phone": "+351 932 739 365",
+    "instagram": "https://instagram.com/deliverycarwash.pt",
+    "whatsapp": "https://wa.me/351932739365",
+    "links": [
+      { "id": "services", "label": "Serviços" },
+      { "id": "before-after", "label": "Antes e Depois" },
+      { "id": "pricing", "label": "Preços" },
+      { "id": "about", "label": "Sobre" },
+      { "id": "testimonials", "label": "Avaliações" },
+      { "id": "contact", "label": "Contacto" }
+    ]
+  },
+  "hero": {
+    "title_line1": "PERFEIÇÃO EM",
+    "title_line2": "CADA DETALHE.",
+    "tagline": "Detalhe automóvel profissional em São Domingos de Rana. Lavagem, polimento, revestimento cerâmico e higienização — o seu carro merece o melhor.",
+    "cta": "Pedir Orçamento",
+    "cta_secondary": "Ver Serviços",
+    "stats": [
+      { "value": "166+", "label": "Avaliações" },
+      { "value": "5★", "label": "Classificação" },
+      { "value": "5+", "label": "Anos" }
+    ],
+    "ticker": [
+      { "text": "LAVAGEM EXTERIOR" },
+      { "text": "LAVAGEM INTERIOR" },
+      { "text": "POLIMENTO" },
+      { "text": "REVESTIMENTO CERÂMICO" },
+      { "text": "DETALHE COMPLETO" },
+      { "text": "HIGIENIZAÇÃO" }
+    ]
+  },
+  "statsCounters": {
+    "title_line1": "RESULTADOS QUE",
+    "title_line2": "FALAM POR SI",
+    "items": [
+      { "label": "Carros Detalhados", "target": 2000, "suffix": "+" },
+      { "label": "Taxa de Satisfação", "target": 100, "suffix": "%" },
+      { "label": "Anos de Experiência", "target": 5, "suffix": "+" },
+      { "label": "Avaliações 5 Estrelas", "target": 166, "suffix": "+" }
+    ]
+  },
+  "services": {
+    "title_line1": "O QUE",
+    "title_line2": "FAZEMOS",
+    "items": [
+      {
+        "icon": "🚿",
+        "title": "Lavagem Exterior",
+        "description": "Lavagem completa do exterior, descontaminação e secagem meticulosa. O primeiro passo para um acabamento perfeito.",
+        "image": "/services/exterior-wash.jpg"
+      },
+      {
+        "icon": "🧹",
+        "title": "Lavagem Interior",
+        "description": "Aspiração profunda, limpeza de tecidos e couro, tratamento de superfícies e eliminação de odores.",
+        "image": "/services/interior-clean.jpg"
+      },
+      {
+        "icon": "✨",
+        "title": "Polimento",
+        "description": "Correção de pintura e polimento profissional para restaurar o brilho de fábrica e remover riscos.",
+        "image": "/services/polishing.jpg"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Revestimento Cerâmico",
+        "description": "Proteção cerâmica de longa duração que repele água, sujidade e raios UV — brilho que dura meses.",
+        "image": "/services/ceramic-coating.jpg"
+      },
+      {
+        "icon": "💎",
+        "title": "Detalhe Completo",
+        "description": "O nosso serviço mais completo: interior + exterior + polimento. Transformação total do seu veículo.",
+        "image": "/services/full-detail.jpg"
+      },
+      {
+        "icon": "🧼",
+        "title": "Higienização",
+        "description": "Sanitização completa do habitáculo, remoção de pêlos de animais, bactérias e alérgenos.",
+        "image": "/services/sanitization.jpg"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "title_line1": "ANTES E",
+    "title_line2": "DEPOIS",
+    "subtitle": "Arraste para comparar",
+    "items": [
+      {
+        "before": "/before-after/interior-before.jpg",
+        "after": "/before-after/interior-after.jpg",
+        "caption": "Higienização de Interior"
+      },
+      {
+        "before": "/before-after/exterior-before.jpg",
+        "after": "/before-after/exterior-after.jpg",
+        "caption": "Polimento Exterior"
+      },
+      {
+        "before": "/before-after/seats-before.jpg",
+        "after": "/before-after/seats-after.jpg",
+        "caption": "Limpeza de Estofos"
+      }
+    ]
+  },
+  "pricing": {
+    "title_line1": "PREÇOS",
+    "title_line2": "TRANSPARENTES",
+    "subtitle": "Pacotes pensados para cada necessidade. Todos os preços são indicativos — o valor final depende do tamanho e estado do veículo.",
+    "popular_label": "Mais Popular",
+    "cta": "Reservar",
+    "disclaimer": "Os preços são indicativos e podem variar consoante o tamanho e estado do veículo.",
+    "plans": [
+      {
+        "name": "Lavagem Básica",
+        "price": "35",
+        "currency": "€",
+        "popular": false,
+        "features": [
+          "Lavagem exterior completa",
+          "Aspiração do interior",
+          "Limpeza dos vidros",
+          "Limpeza das jantes",
+          "Secagem à mão"
+        ],
+        "cta": "Reservar"
+      },
+      {
+        "name": "Detalhe Premium",
+        "price": "85",
+        "currency": "€",
+        "popular": true,
+        "features": [
+          "Tudo da Lavagem Básica",
+          "Limpeza profunda do interior",
+          "Tratamento de couro/tecido",
+          "Polimento de um passo",
+          "Tratamento dos plásticos",
+          "Ambientador premium"
+        ],
+        "cta": "Reservar"
+      },
+      {
+        "name": "Revestimento Cerâmico",
+        "price": "250",
+        "currency": "€",
+        "popular": false,
+        "features": [
+          "Tudo do Detalhe Premium",
+          "Correção de pintura completa",
+          "Polimento multi-passo",
+          "Revestimento cerâmico profissional",
+          "Proteção até 12 meses",
+          "Brilho hidrofóbico duradouro"
+        ],
+        "cta": "Reservar"
+      }
+    ]
+  },
+  "about": {
+    "title_line1": "O DETALHE",
+    "title_line2": "FAZ A DIFERENÇA",
+    "body": "O M M Detalhe Automóvel nasceu da paixão do Bruno por transformar veículos. Em São Domingos de Rana, construímos uma reputação de excelência com base na atenção meticulosa ao detalhe e num serviço que vai além das expectativas.\n\nCom mais de 166 avaliações de 5 estrelas no Google, os nossos clientes falam por nós. Oferecemos serviço de recolha e entrega, utilizamos produtos de gama profissional e tratamos cada carro como se fosse nosso — porque para nós, o detalhe não é apenas um serviço, é um padrão.",
+    "stats": [
+      { "value": "5★", "label": "Avaliação" },
+      { "value": "166+", "label": "Avaliações" },
+      { "value": "5+", "label": "Anos" }
+    ]
+  },
+  "galleryStrip": {
+    "images": [
+      { "src": "/gallery/1.jpg", "alt": "Carro a brilhar após detalhe completo" },
+      { "src": "/gallery/2.jpg", "alt": "Polimento profissional de pintura" },
+      { "src": "/gallery/3.jpg", "alt": "Interior impecável após higienização" },
+      { "src": "/gallery/4.jpg", "alt": "Aplicação de revestimento cerâmico" },
+      { "src": "/gallery/5.jpg", "alt": "Limpeza profunda de estofos" },
+      { "src": "/gallery/6.jpg", "alt": "Acabamento final de detalhe exterior" },
+      { "src": "/gallery/7.jpg", "alt": "Bruno a trabalhar num veículo" },
+      { "src": "/gallery/8.jpg", "alt": "Resultado final — carro como novo" }
+    ]
+  },
+  "reviews": {
+    "title_line1": "O QUE DIZEM",
+    "title_line2": "OS CLIENTES",
+    "subtitle": "Avaliações reais de clientes reais.",
+    "items": [
+      {
+        "quote": "Atendimento espetacular e com muita atenção ao detalhe! A equipa é extremamente simpática e demonstrou um profissionalismo irrepreensível. Para além da qualidade do serviço, praticam preços muito competitivos. Recomendo vivamente!",
+        "name": "Victor Arefiev",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Excelente serviço e excelente atendimento. Um carro com 20 anos ficou como novo. Interior brilhante (conseguiu tirar o emborrachado do tablier) e completamente higienizado e a cheirar bem, incluindo estofos. Pintura e capota com tratamento especial. Recomendo!!!!",
+        "name": "Flor Paredes",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "O Bruno é super simpático e meu carro está parecendo novo em folha, nem parece que eu tenho um cachorro que vive sujando meu carro de pelos! Recomendo muito.",
+        "name": "Paulo Neto",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Usei para limpeza profunda do habitáculo e polimento exterior de uma pickup Strakar que tinha recebido, extremamente suja de vários anos de trabalho na agricultura. Em 2 dias ficou impecável, a brilhar por dentro e por fora, foi um trabalho excelente. Recomendo vivamente e voltarei a usar sempre que precisar. Muito boa relação preço/qualidade.",
+        "name": "Luis Sequeira",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Já fiz mais de uma vez serviço nessa empresa. Todas as vezes fiquei muitoooo satisfeita. Serviço de excelência e diferenciado, ótimos profissionais. Super recomendo.",
+        "name": "Ruth Barbosa",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Vieram buscar e deixar o carro! Trabalho como petsitter e o meu carro estava carregado de pêlos (ao ponto de nem se ver o chão) e foi entregue praticamente sem pêlos. Recomendo MUITO!!!!!",
+        "name": "PatriciaMartins25",
+        "role": "Avaliação Google",
+        "avatar": null,
+        "rating": 5
+      }
+    ]
+  },
+  "googleReviews": {
+    "title_line1": "GOSTOU DO",
+    "title_line2": "RESULTADO?",
+    "subtitle": "A sua avaliação ajuda outros condutores a encontrar um serviço de detalhe de confiança — e faz o dia da nossa equipa.",
+    "cta": "Deixar Avaliação no Google",
+    "rating_label": "Avaliado no Google"
+  },
+  "faq": {
+    "title_line1": "PERGUNTAS",
+    "title_line2": "FREQUENTES",
+    "items": [
+      {
+        "question": "Fazem recolha e entrega do veículo?",
+        "answer": "Sim, fazemos recolha e entrega do seu carro em São Domingos de Rana e zonas envolventes de Cascais e Oeiras. Basta ligar para combinar."
+      },
+      {
+        "question": "Quanto tempo demora um detalhe completo?",
+        "answer": "Depende do estado do veículo. Uma lavagem básica demora cerca de 1-2 horas, enquanto um detalhe completo com polimento pode levar 1-2 dias para resultados perfeitos."
+      },
+      {
+        "question": "Conseguem remover pêlos de animais?",
+        "answer": "Sim, é uma das nossas especialidades. Vários clientes com animais de estimação confiam-nos a remoção completa de pêlos — mesmo nos casos mais extremos."
+      },
+      {
+        "question": "Quanto tempo dura o revestimento cerâmico?",
+        "answer": "O nosso revestimento cerâmico profissional protege a pintura durante 6 a 12 meses, dependendo das condições de utilização e exposição."
+      },
+      {
+        "question": "Fazem orçamentos gratuitos?",
+        "answer": "Sim, fazemos orçamentos gratuitos e sem compromisso. Ligue-nos ou envie mensagem pelo WhatsApp com fotos do veículo para uma estimativa rápida."
+      },
+      {
+        "question": "Quais são os métodos de pagamento?",
+        "answer": "Aceitamos dinheiro, transferência bancária e MBWay. O pagamento é feito na entrega do veículo."
+      }
+    ]
+  },
+  "contact": {
+    "title_line1": "ENTRE EM",
+    "title_line2": "CONTACTO",
+    "body": "Quer transformar o seu carro? Ligue, envie mensagem pelo WhatsApp ou siga-nos no Instagram para ver os nossos trabalhos.",
+    "quote_cta": "Pedir Orçamento",
+    "call_cta": "Ligar",
+    "phone": "+351 932 739 365",
+    "address": "Estrada de Polima, R. Outeirinhos 171, 2785-545 São Domingos de Rana",
+    "hours": "Seg–Sex 09:30–18:00 · Sáb 09:30–13:30 · Dom Encerrado",
+    "instagram": "https://instagram.com/deliverycarwash.pt",
+    "whatsapp": "https://wa.me/351932739365",
+    "map_link": "https://maps.google.com/?cid=13036127262978242598",
+    "map": {
+      "address": "Estrada de Polima, R. Outeirinhos 171\n2785-545 São Domingos de Rana",
+      "mapsEmbedUrl": "https://www.google.com/maps?cid=13036127262978242598&output=embed",
+      "mapTitle": "M M Detalhe Automóvel"
+    }
+  },
+  "quoteBar": {
+    "cta_quote": "Pedir Orçamento",
+    "cta_call": "Ligar",
+    "phone": "+351 932 739 365"
+  },
+  "footer": {
+    "brand": "M M Detalhe",
+    "tagline": "Detalhe automóvel profissional em São Domingos de Rana.",
+    "address": "Estrada de Polima, R. Outeirinhos 171, 2785-545 São Domingos de Rana",
+    "hours": "Seg–Sex 09:30–18:00 · Sáb 09:30–13:30 · Dom Encerrado",
+    "phone": "+351 932 739 365",
+    "instagram": "https://instagram.com/deliverycarwash.pt",
+    "whatsapp": "https://wa.me/351932739365",
+    "copyright": "© 2026 M M Detalhe Automóvel. Todos os direitos reservados.",
+    "quote_cta": "Pedir Orçamento",
+    "explore_label": "Explorar",
+    "hours_label": "Horário",
+    "find_us_label": "Onde Estamos",
+    "made_in": "Feito em São Domingos de Rana",
+    "nav_links": [
+      { "id": "services", "label": "Serviços" },
+      { "id": "before-after", "label": "Antes e Depois" },
+      { "id": "pricing", "label": "Preços" },
+      { "id": "about", "label": "Sobre" },
+      { "id": "testimonials", "label": "Avaliações" },
+      { "id": "contact", "label": "Contacto" }
+    ]
   }
 }

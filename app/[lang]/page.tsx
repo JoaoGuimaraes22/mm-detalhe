@@ -1,6 +1,20 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "./dictionaries";
-import LocaleSwitcher from "./_components/locale-switcher";
+import ScrollProgress from "./_components/scroll-progress";
+import Navbar from "./_components/navbar";
+import Hero from "./_components/hero";
+import StatsCounters from "./_components/stats-counters";
+import Services from "./_components/services";
+import BeforeAfter from "./_components/before-after";
+import Pricing from "./_components/pricing";
+import About from "./_components/about";
+import GalleryStrip from "./_components/gallery-strip";
+import Reviews from "./_components/reviews";
+import GoogleReviews from "./_components/google-reviews";
+import Faq from "./_components/faq";
+import Contact from "./_components/contact";
+import Footer from "./_components/footer";
+import QuoteBar from "./_components/quote-bar";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -10,16 +24,24 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const dict = await getDictionary(lang);
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center">
-      <main className="flex w-full max-w-2xl flex-col items-center gap-8 px-6 py-24 text-center">
-        <LocaleSwitcher />
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
-          {dict.home.title}
-        </h1>
-        <p className="max-w-md text-lg text-zinc-600 dark:text-zinc-400">
-          {dict.home.description}
-        </p>
+    <>
+      <ScrollProgress />
+      <Navbar dict={dict.navbar} lang={lang} />
+      <main id="main">
+        <Hero dict={dict.hero} />
+        <StatsCounters dict={dict.statsCounters} />
+        <Services dict={dict.services} />
+        <BeforeAfter dict={dict.beforeAfter} />
+        <Pricing dict={dict.pricing} />
+        <About dict={dict.about} />
+        <GalleryStrip dict={dict.galleryStrip} />
+        <Reviews dict={dict.reviews} />
+        <GoogleReviews dict={dict.googleReviews} />
+        <Faq dict={dict.faq} />
+        <Contact dict={dict.contact} />
       </main>
-    </div>
+      <Footer dict={dict.footer} />
+      <QuoteBar dict={dict.quoteBar} />
+    </>
   );
 }

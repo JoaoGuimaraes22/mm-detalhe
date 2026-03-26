@@ -1,15 +1,345 @@
 {
   "metadata": {
-    "name": "Business Name",
-    "title": "Business Name | City",
-    "description": "Welcome to my site.",
-    "phone": "",
+    "name": "M M Detalhe Automóvel",
+    "title": "M M Detalhe Automóvel | Premium Auto Detailing in São Domingos de Rana",
+    "description": "Premium auto detailing in São Domingos de Rana. Ceramic coating, paint correction, interior deep cleaning, and full detailing — 166+ five-star reviews.",
+    "phone": "+351 932 739 365",
     "email": "",
-    "address": "",
-    "type": "LocalBusiness"
+    "address": "Estrada de Polima, R. Outeirinhos 171, 2785-545 São Domingos de Rana",
+    "type": "AutoRepair"
   },
-  "home": {
-    "title": "Welcome",
-    "description": "This is the starting point of your project. Edit this page to get started."
+  "navbar": {
+    "brand": "M M Detalhe",
+    "cta": "Get a Quote",
+    "phone": "+351 932 739 365",
+    "instagram": "https://instagram.com/deliverycarwash.pt",
+    "whatsapp": "https://wa.me/351932739365",
+    "links": [
+      { "id": "services", "label": "Services" },
+      { "id": "before-after", "label": "Before & After" },
+      { "id": "pricing", "label": "Pricing" },
+      { "id": "about", "label": "About" },
+      { "id": "testimonials", "label": "Reviews" },
+      { "id": "contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "title_line1": "PERFECTION",
+    "title_line2": "IN EVERY DETAIL.",
+    "tagline": "Premium auto detailing in São Domingos de Rana. Ceramic coating, paint correction, and full interior restoration — your car deserves the best.",
+    "cta": "Get a Quote",
+    "cta_secondary": "Our Services",
+    "stats": [
+      { "value": "166+", "label": "Reviews" },
+      { "value": "5★", "label": "Rating" },
+      { "value": "8+", "label": "Years" }
+    ],
+    "ticker": [
+      { "text": "EXTERIOR WASH" },
+      { "text": "INTERIOR DETAIL" },
+      { "text": "PAINT CORRECTION" },
+      { "text": "CERAMIC COATING" },
+      { "text": "FULL DETAIL" },
+      { "text": "UPHOLSTERY CLEANING" }
+    ]
+  },
+  "statsCounters": {
+    "title_line1": "THE NUMBERS",
+    "title_line2": "SPEAK",
+    "items": [
+      { "label": "Cars Detailed", "target": 2000, "suffix": "+" },
+      { "label": "Satisfaction Rate", "target": 100, "suffix": "%" },
+      { "label": "Years Experience", "target": 8, "suffix": "+" },
+      { "label": "5-Star Reviews", "target": 166, "suffix": "+" }
+    ]
+  },
+  "services": {
+    "title_line1": "WHAT WE",
+    "title_line2": "DO",
+    "items": [
+      {
+        "icon": "🚿",
+        "title": "Exterior Wash",
+        "description": "Complete exterior wash, decontamination, wheel cleaning, and hand dry — your car gleaming from every angle.",
+        "image": "/services/exterior-wash.jpg"
+      },
+      {
+        "icon": "✨",
+        "title": "Interior Detail",
+        "description": "Deep vacuum, dashboard treatment, fabric and leather conditioning, and full sanitization — a spotless cabin.",
+        "image": "/services/interior-detail.jpg"
+      },
+      {
+        "icon": "💎",
+        "title": "Paint Correction",
+        "description": "Machine polishing to remove swirl marks, scratches, and oxidation — restoring your paint to a mirror finish.",
+        "image": "/services/paint-correction.jpg"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Ceramic Coating",
+        "description": "Professional-grade ceramic coating for long-term paint protection, hydrophobic finish, and showroom shine that lasts years.",
+        "image": "/services/ceramic-coating.jpg"
+      },
+      {
+        "icon": "🔄",
+        "title": "Full Detail",
+        "description": "The complete transformation — exterior wash, interior deep clean, paint correction, and finishing touches. Inside and out.",
+        "image": "/services/full-detail.jpg"
+      },
+      {
+        "icon": "🪑",
+        "title": "Upholstery Cleaning",
+        "description": "Deep extraction cleaning for seats, carpets, and headliner. Pet hair removal, stain treatment, and deodorizing.",
+        "image": "/services/upholstery-cleaning.jpg"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "title_line1": "THE",
+    "title_line2": "TRANSFORMATION",
+    "subtitle": "Drag to compare",
+    "items": [
+      {
+        "before": "/before-after/polish-before.jpg",
+        "after": "/before-after/polish-after.jpg",
+        "caption": "Paint Correction — Swirl marks removed, mirror finish restored"
+      },
+      {
+        "before": "/before-after/interior-before.jpg",
+        "after": "/before-after/interior-after.jpg",
+        "caption": "Interior Detail — Deep cleaned and conditioned"
+      },
+      {
+        "before": "/before-after/exterior-before.jpg",
+        "after": "/before-after/exterior-after.jpg",
+        "caption": "Full Detail — Complete exterior transformation"
+      },
+      {
+        "before": "/before-after/upholstery-before.jpg",
+        "after": "/before-after/upholstery-after.jpg",
+        "caption": "Upholstery Cleaning — Stains and pet hair removed"
+      }
+    ]
+  },
+  "pricing": {
+    "title_line1": "OUR",
+    "title_line2": "PACKAGES",
+    "subtitle": "Choose the level of care your car deserves.",
+    "popular_label": "Most Popular",
+    "cta": "Book Now",
+    "disclaimer": "Prices are indicative. Final cost depends on vehicle size and condition.",
+    "plans": [
+      {
+        "name": "Basic Wash",
+        "price": "35",
+        "currency": "€",
+        "popular": false,
+        "features": [
+          "Exterior wash & dry",
+          "Wheel cleaning",
+          "Interior vacuum",
+          "Dashboard wipe",
+          "Air freshener"
+        ],
+        "cta": "Book Now"
+      },
+      {
+        "name": "Premium Detail",
+        "price": "85",
+        "currency": "€",
+        "popular": true,
+        "features": [
+          "Everything in Basic",
+          "Paint decontamination",
+          "Interior deep clean",
+          "Leather conditioning",
+          "Engine bay clean"
+        ],
+        "cta": "Book Now"
+      },
+      {
+        "name": "Ceramic Coating",
+        "price": "250",
+        "currency": "€",
+        "popular": false,
+        "features": [
+          "Everything in Premium",
+          "Paint correction",
+          "Ceramic coating application",
+          "2-year protection",
+          "Hydrophobic finish"
+        ],
+        "cta": "Book Now"
+      }
+    ]
+  },
+  "about": {
+    "title_line1": "THE MAN",
+    "title_line2": "BEHIND THE DETAIL",
+    "body": "Bruno founded M M Detalhe Automóvel with one mission: to transform every vehicle that comes through his hands. Based in São Domingos de Rana, he's built a reputation for meticulous attention to detail that turns even the most neglected cars into showroom pieces.\n\nWith over 8 years of experience and a perfect 5-star rating across 166+ Google reviews, Bruno and his team offer pickup and delivery service, professional-grade products, and the kind of craftsmanship that keeps customers coming back. The before-and-after transformations on Instagram speak for themselves.",
+    "stats": [
+      { "value": "8+", "label": "Years" },
+      { "value": "5★", "label": "Rating" },
+      { "value": "166+", "label": "Reviews" }
+    ]
+  },
+  "galleryStrip": {
+    "images": [
+      { "src": "/gallery/detail-closeup.jpg", "alt": "Close-up of polished paint reflection" },
+      { "src": "/gallery/interior-clean.jpg", "alt": "Freshly detailed car interior" },
+      { "src": "/gallery/ceramic-finish.jpg", "alt": "Ceramic coating water beading on hood" },
+      { "src": "/gallery/wheel-detail.jpg", "alt": "Wheel after deep cleaning" },
+      { "src": "/gallery/full-exterior.jpg", "alt": "Completed full exterior detail" },
+      { "src": "/gallery/leather-seats.jpg", "alt": "Conditioned leather seats" },
+      { "src": "/gallery/engine-bay.jpg", "alt": "Clean engine bay after detailing" },
+      { "src": "/gallery/final-result.jpg", "alt": "Car ready for delivery after full detail" }
+    ]
+  },
+  "reviews": {
+    "title_line1": "WHAT DRIVERS",
+    "title_line2": "SAY",
+    "subtitle": "Real feedback from real customers.",
+    "items": [
+      {
+        "quote": "Spectacular service with incredible attention to detail! The team is extremely friendly and showed flawless professionalism. On top of the quality, they offer very competitive prices. Highly recommend!",
+        "name": "Victor Arefiev",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Excellent service and excellent customer care. A 20-year-old car came out looking brand new. Brilliant interior — they managed to remove the rubber coating from the dashboard — fully sanitized and smelling great, including upholstery. Paint and roof with special treatment. Highly recommend!",
+        "name": "Flor Paredes",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Bruno is super friendly and my car looks brand new — you'd never guess I have a dog that constantly fills it with hair! Highly recommend.",
+        "name": "Paulo Neto",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Used them for a deep interior clean and exterior polish on a Strakar pickup that was extremely dirty from years of farm work. In 2 days it was impeccable, shining inside and out. Excellent value for money compared to others I researched. Highly recommend!",
+        "name": "Luis Sequeira",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "I've used this company more than once. Every time I was extremely satisfied. Outstanding and differentiated service, excellent professionals. Absolutely recommend.",
+        "name": "Ruth Barbosa",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Flawless work! I recommended them to a family member through their ad and it turned out amazing. Super professional! No regrets with the recommendation and I'll be using their services again.",
+        "name": "Tiago Soares Lopes",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "They picked up and delivered the car! I work as a petsitter and my car was covered in hair — to the point you couldn't see the floor — and it was returned practically hair-free. Absolutely recommend!",
+        "name": "Patricia Martins",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      },
+      {
+        "quote": "Excellent service! 5-star customer care and impeccable cleaning. The car arrived in a very rough state and the professionals left it spotless. They've won a regular customer.",
+        "name": "Pedro Teixeira",
+        "role": "Google Review",
+        "avatar": null,
+        "rating": 5
+      }
+    ]
+  },
+  "googleReviews": {
+    "title_line1": "LOVE THE",
+    "title_line2": "RESULTS?",
+    "subtitle": "Your review helps other car owners find a detailer they can trust — and it means the world to our team.",
+    "cta": "Leave a Google Review",
+    "rating_label": "Rated on Google"
+  },
+  "faq": {
+    "title_line1": "COMMON",
+    "title_line2": "QUESTIONS",
+    "items": [
+      {
+        "question": "Do you offer pickup and delivery?",
+        "answer": "Yes! We pick up your car and return it once the detailing is complete. It's one of our most popular features — no need to rearrange your schedule."
+      },
+      {
+        "question": "What areas do you serve?",
+        "answer": "We're based in São Domingos de Rana and serve the greater Cascais, Oeiras, and Lisbon western corridor. Contact us to check if we cover your area."
+      },
+      {
+        "question": "How long does a full detail take?",
+        "answer": "A basic wash takes a few hours. A premium detail is typically same-day. Full details with paint correction or ceramic coating can take 1-2 days depending on the vehicle's condition."
+      },
+      {
+        "question": "Can you remove pet hair from my car?",
+        "answer": "Absolutely. We specialize in deep extraction cleaning that removes pet hair, dander, and odors. Many of our happiest customers are pet owners — check our reviews!"
+      },
+      {
+        "question": "How long does ceramic coating last?",
+        "answer": "Our professional-grade ceramic coating provides 2+ years of protection with a hydrophobic finish that repels water, dirt, and UV damage. Proper maintenance extends its life even further."
+      },
+      {
+        "question": "Do I need to book in advance?",
+        "answer": "We recommend booking ahead, especially for premium services and ceramic coating. For basic washes, we can often fit you in on shorter notice. Call or WhatsApp us to check availability."
+      }
+    ]
+  },
+  "contact": {
+    "title_line1": "GET IN",
+    "title_line2": "TOUCH",
+    "body": "Ready to transform your car? Get a quote, book a service, or just ask us anything — we're always happy to help.",
+    "quote_cta": "Get a Quote",
+    "call_cta": "Call Us",
+    "phone": "+351 932 739 365",
+    "address": "Estrada de Polima, R. Outeirinhos 171, 2785-545 São Domingos de Rana",
+    "hours": "Mon–Fri 09:30–18:00 · Sat 09:30–13:30 · Sun Closed",
+    "instagram": "https://instagram.com/deliverycarwash.pt",
+    "whatsapp": "https://wa.me/351932739365",
+    "map_link": "https://maps.google.com/?cid=13036127262978242598",
+    "map": {
+      "address": "Estrada de Polima, R. Outeirinhos 171\n2785-545 São Domingos de Rana",
+      "mapsEmbedUrl": "https://www.google.com/maps?cid=13036127262978242598&output=embed",
+      "mapTitle": "M M Detalhe Automóvel location"
+    }
+  },
+  "quoteBar": {
+    "cta_quote": "Get a Quote",
+    "cta_call": "Call Us",
+    "phone": "+351 932 739 365"
+  },
+  "footer": {
+    "brand": "M M Detalhe",
+    "tagline": "Premium auto detailing in São Domingos de Rana.",
+    "address": "Estrada de Polima, R. Outeirinhos 171, 2785-545 São Domingos de Rana",
+    "hours": "Mon–Fri 09:30–18:00 · Sat 09:30–13:30 · Sun Closed",
+    "phone": "+351 932 739 365",
+    "instagram": "https://instagram.com/deliverycarwash.pt",
+    "whatsapp": "https://wa.me/351932739365",
+    "copyright": "© 2026 M M Detalhe Automóvel. All rights reserved.",
+    "quote_cta": "Get a Quote",
+    "explore_label": "Explore",
+    "hours_label": "Hours",
+    "find_us_label": "Find Us",
+    "made_in": "Made in São Domingos de Rana",
+    "nav_links": [
+      { "id": "services", "label": "Services" },
+      { "id": "before-after", "label": "Before & After" },
+      { "id": "pricing", "label": "Pricing" },
+      { "id": "about", "label": "About" },
+      { "id": "testimonials", "label": "Reviews" },
+      { "id": "contact", "label": "Contact" }
+    ]
   }
 }
