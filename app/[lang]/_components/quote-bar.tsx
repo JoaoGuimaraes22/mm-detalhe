@@ -19,16 +19,16 @@ export default function QuoteBar({ dict }: { dict: { cta_quote: string; cta_call
         visible ? "translate-y-0" : "translate-y-24"
       }`}
     >
-      <div className="flex gap-2 rounded-2xl bg-[#d4a853] p-2 shadow-2xl">
+      <div className="flex gap-1.5 rounded-xl bg-[#d4a853] p-1.5 shadow-2xl">
         <button
           onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-          className="flex-1 cursor-pointer rounded-xl bg-[#0a0a0a] py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a1a1a]"
+          className="flex-1 cursor-pointer rounded-lg bg-[#0a0a0a] py-2.5 text-xs font-semibold text-white transition-colors hover:bg-[#1a1a1a]"
         >
           {dict.cta_quote}
         </button>
         <a
           href={`tel:${dict.phone}`}
-          className="flex-1 cursor-pointer rounded-xl bg-white/90 py-3 text-center text-sm font-semibold text-[#0a0a0a] transition-colors hover:bg-white"
+          className="flex-1 cursor-pointer rounded-lg bg-white/90 py-2.5 text-center text-xs font-semibold text-[#0a0a0a] transition-colors hover:bg-white"
         >
           {dict.cta_call}
         </a>

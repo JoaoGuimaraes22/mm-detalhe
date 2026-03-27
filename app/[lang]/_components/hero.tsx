@@ -78,7 +78,7 @@ export default function Hero({ dict }: { dict: Dict }) {
           {/* Title */}
           <h1 className="overflow-hidden">
             <span
-              className="block text-6xl font-black uppercase tracking-wide text-white sm:text-7xl lg:text-8xl"
+              className="block text-4xl font-black uppercase tracking-wide text-white sm:text-7xl lg:text-8xl"
               style={
                 visible
                   ? { animation: "hero-up 0.9s cubic-bezier(0.16,1,0.3,1) 0.1s both" }
@@ -88,7 +88,7 @@ export default function Hero({ dict }: { dict: Dict }) {
               {dict.title_line1}
             </span>
             <span
-              className="block text-6xl font-black uppercase tracking-wide sm:text-7xl lg:text-8xl"
+              className="block text-4xl font-black uppercase tracking-wide sm:text-7xl lg:text-8xl"
               style={
                 visible
                   ? {
@@ -114,7 +114,7 @@ export default function Hero({ dict }: { dict: Dict }) {
 
           {/* Tagline */}
           <p
-            className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-[#94a3b8] sm:text-lg md:text-xl"
+            className="mx-auto mb-10 max-w-2xl text-sm leading-relaxed text-[#94a3b8] sm:text-lg md:text-xl"
             style={
               visible
                 ? { animation: "hero-up 0.9s cubic-bezier(0.16,1,0.3,1) 0.55s both" }
@@ -149,7 +149,7 @@ export default function Hero({ dict }: { dict: Dict }) {
 
           {/* Stats row */}
           {dict.stats.length > 0 && (
-            <div className="mt-20 flex flex-col items-center justify-center gap-10 sm:flex-row sm:gap-16">
+            <div className="mt-20 hidden items-center justify-center gap-16 sm:flex">
               {dict.stats.map((stat, i) => (
                 <div
                   key={i}
