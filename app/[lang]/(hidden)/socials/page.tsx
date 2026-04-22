@@ -30,9 +30,11 @@ export default async function Page({ params }: PageProps<"/[lang]/socials">) {
 
   if (!socials || !Array.isArray(socials.posts) || socials.posts.length === 0) {
     return (
-      <main className="mx-auto flex min-h-[60vh] max-w-md flex-col items-center justify-center px-6 text-center">
-        <p className="text-sm text-zinc-500">{socials?.subtitle ?? ""}</p>
-      </main>
+      <div className="min-h-screen bg-white">
+        <main className="mx-auto flex min-h-[60vh] max-w-md flex-col items-center justify-center px-6 text-center">
+          <p className="text-sm text-zinc-500">{socials?.subtitle ?? ""}</p>
+        </main>
+      </div>
     );
   }
 
@@ -44,7 +46,8 @@ export default async function Page({ params }: PageProps<"/[lang]/socials">) {
   };
 
   return (
-    <main className="mx-auto w-full max-w-7xl overflow-hidden px-6 py-16">
+    <div className="min-h-screen bg-white">
+      <main className="mx-auto w-full max-w-7xl overflow-hidden px-6 py-16">
       <header className="mb-12 text-center">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl">
           {socials.title}
@@ -105,6 +108,7 @@ export default async function Page({ params }: PageProps<"/[lang]/socials">) {
           )}
         </section>
       </div>
-    </main>
+      </main>
+    </div>
   );
 }
