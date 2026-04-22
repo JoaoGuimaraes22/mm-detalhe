@@ -15,12 +15,30 @@
     "instagram": "https://instagram.com/deliverycarwash.pt",
     "whatsapp": "https://wa.me/351932739365",
     "links": [
-      { "id": "services", "label": "Serviços" },
-      { "id": "before-after", "label": "Antes e Depois" },
-      { "id": "pricing", "label": "Preços" },
-      { "id": "about", "label": "Sobre" },
-      { "id": "testimonials", "label": "Avaliações" },
-      { "id": "contact", "label": "Contacto" }
+      {
+        "id": "services",
+        "label": "Serviços"
+      },
+      {
+        "id": "before-after",
+        "label": "Antes e Depois"
+      },
+      {
+        "id": "pricing",
+        "label": "Preços"
+      },
+      {
+        "id": "about",
+        "label": "Sobre"
+      },
+      {
+        "id": "testimonials",
+        "label": "Avaliações"
+      },
+      {
+        "id": "contact",
+        "label": "Contacto"
+      }
     ]
   },
   "hero": {
@@ -30,27 +48,64 @@
     "cta": "Pedir Orçamento",
     "cta_secondary": "Ver Serviços",
     "stats": [
-      { "value": "166+", "label": "Avaliações" },
-      { "value": "5★", "label": "Classificação" },
-      { "value": "8+", "label": "Anos" }
+      {
+        "value": "166+",
+        "label": "Avaliações"
+      },
+      {
+        "value": "5★",
+        "label": "Classificação"
+      },
+      {
+        "value": "8+",
+        "label": "Anos"
+      }
     ],
     "ticker": [
-      { "text": "LAVAGEM EXTERIOR" },
-      { "text": "LAVAGEM INTERIOR" },
-      { "text": "POLIMENTO" },
-      { "text": "REVESTIMENTO CERÂMICO" },
-      { "text": "DETALHE COMPLETO" },
-      { "text": "HIGIENIZAÇÃO" }
+      {
+        "text": "LAVAGEM EXTERIOR"
+      },
+      {
+        "text": "LAVAGEM INTERIOR"
+      },
+      {
+        "text": "POLIMENTO"
+      },
+      {
+        "text": "REVESTIMENTO CERÂMICO"
+      },
+      {
+        "text": "DETALHE COMPLETO"
+      },
+      {
+        "text": "HIGIENIZAÇÃO"
+      }
     ]
   },
   "statsCounters": {
     "title_line1": "RESULTADOS QUE",
     "title_line2": "FALAM POR SI",
     "items": [
-      { "label": "Carros Detalhados", "target": 2000, "suffix": "+" },
-      { "label": "Taxa de Satisfação", "target": 100, "suffix": "%" },
-      { "label": "Anos de Experiência", "target": 8, "suffix": "+" },
-      { "label": "Avaliações 5 Estrelas", "target": 166, "suffix": "+" }
+      {
+        "label": "Carros Detalhados",
+        "target": 2000,
+        "suffix": "+"
+      },
+      {
+        "label": "Taxa de Satisfação",
+        "target": 100,
+        "suffix": "%"
+      },
+      {
+        "label": "Anos de Experiência",
+        "target": 8,
+        "suffix": "+"
+      },
+      {
+        "label": "Avaliações 5 Estrelas",
+        "target": 166,
+        "suffix": "+"
+      }
     ]
   },
   "services": {
@@ -180,21 +235,54 @@
     "title_line2": "FAZ A DIFERENÇA",
     "body": "O M M Detalhe Automóvel nasceu da paixão do Bruno por transformar veículos. Em São Domingos de Rana, construímos uma reputação de excelência com base na atenção meticulosa ao detalhe e num serviço que vai além das expectativas.\n\nCom mais de 166 avaliações de 5 estrelas no Google, os nossos clientes falam por nós. Oferecemos serviço de recolha e entrega, utilizamos produtos de gama profissional e tratamos cada carro como se fosse nosso — porque para nós, o detalhe não é apenas um serviço, é um padrão.",
     "stats": [
-      { "value": "5★", "label": "Avaliação" },
-      { "value": "166+", "label": "Avaliações" },
-      { "value": "8+", "label": "Anos" }
+      {
+        "value": "5★",
+        "label": "Avaliação"
+      },
+      {
+        "value": "166+",
+        "label": "Avaliações"
+      },
+      {
+        "value": "8+",
+        "label": "Anos"
+      }
     ]
   },
   "galleryStrip": {
     "images": [
-      { "src": "/gallery/detail-closeup.webp", "alt": "Pormenor de pintura polida" },
-      { "src": "/gallery/interior-clean.webp", "alt": "Interior acabado de detalhar" },
-      { "src": "/gallery/ceramic-finish.webp", "alt": "Efeito hidrofóbico do revestimento cerâmico" },
-      { "src": "/gallery/wheel-detail.webp", "alt": "Jante após limpeza profunda" },
-      { "src": "/gallery/full-exterior.webp", "alt": "Detalhe exterior completo" },
-      { "src": "/gallery/leather-seats.webp", "alt": "Bancos em couro tratados" },
-      { "src": "/gallery/engine-bay.webp", "alt": "Compartimento do motor limpo" },
-      { "src": "/gallery/final-result.webp", "alt": "Carro pronto para entrega" }
+      {
+        "src": "/gallery/detail-closeup.webp",
+        "alt": "Pormenor de pintura polida"
+      },
+      {
+        "src": "/gallery/interior-clean.webp",
+        "alt": "Interior acabado de detalhar"
+      },
+      {
+        "src": "/gallery/ceramic-finish.webp",
+        "alt": "Efeito hidrofóbico do revestimento cerâmico"
+      },
+      {
+        "src": "/gallery/wheel-detail.webp",
+        "alt": "Jante após limpeza profunda"
+      },
+      {
+        "src": "/gallery/full-exterior.webp",
+        "alt": "Detalhe exterior completo"
+      },
+      {
+        "src": "/gallery/leather-seats.webp",
+        "alt": "Bancos em couro tratados"
+      },
+      {
+        "src": "/gallery/engine-bay.webp",
+        "alt": "Compartimento do motor limpo"
+      },
+      {
+        "src": "/gallery/final-result.webp",
+        "alt": "Carro pronto para entrega"
+      }
     ]
   },
   "reviews": {
@@ -335,12 +423,141 @@
     "find_us_label": "Onde Estamos",
     "made_in": "Feito em São Domingos de Rana",
     "nav_links": [
-      { "id": "services", "label": "Serviços" },
-      { "id": "before-after", "label": "Antes e Depois" },
-      { "id": "pricing", "label": "Preços" },
-      { "id": "about", "label": "Sobre" },
-      { "id": "testimonials", "label": "Avaliações" },
-      { "id": "contact", "label": "Contacto" }
+      {
+        "id": "services",
+        "label": "Serviços"
+      },
+      {
+        "id": "before-after",
+        "label": "Antes e Depois"
+      },
+      {
+        "id": "pricing",
+        "label": "Preços"
+      },
+      {
+        "id": "about",
+        "label": "Sobre"
+      },
+      {
+        "id": "testimonials",
+        "label": "Avaliações"
+      },
+      {
+        "id": "contact",
+        "label": "Contacto"
+      }
+    ]
+  },
+  "socials": {
+    "title": "O teu futuro nas redes sociais",
+    "subtitle": "Uma prévia de como o teu Instagram, Facebook e LinkedIn ficariam no próximo mês.",
+    "labels": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn"
+    },
+    "ui": {
+      "facebookSubtitle": "Patrocinado · Público",
+      "linkedinSubtitle": "Empresa · há 1 dia",
+      "carouselPrevious": "Slide anterior",
+      "carouselNext": "Slide seguinte",
+      "carouselGoTo": "Ir para o slide {n}"
+    },
+    "posts": [
+      {
+        "id": "01-tip-education",
+        "contentType": "tip-education",
+        "contentLabel": "Tip #1",
+        "media": {
+          "type": "data-carousel",
+          "slides": 5
+        },
+        "images": [
+          "/socials/01-tip-education/instagram-1.jpg",
+          "/socials/01-tip-education/instagram-2.jpg",
+          "/socials/01-tip-education/instagram-3.jpg"
+        ],
+        "captions": {
+          "instagram": "Lavar o carro ao sol de sábado à tarde. Parece inofensivo. Não é. ☀️\n\nA água e o shampoo secam na pintura em segundos — e deixam manchas minerais que depois já não saem com uma lavagem normal. É stress térmico no verniz e o início de muita dor de cabeça.\n\nA regra é simples: lava sempre à sombra, com o carro frio ao toque. De manhã cedo ou ao fim da tarde. Seca logo com microfibra, nunca deixes secar ao ar.\n\nO teu carro vai agradecer-te durante anos.\n\nLink in bio 👆\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana #Portugal #NegóciosLocais #CarDetailing #DetalheAutomóvel #CarroLimpo #DicasDeCarro #AutoCare #CarCarePortugal #Cascais #Oeiras",
+          "facebook": "Dejetos de pássaros no capô. Deixaste para limpar ao fim de semana? Pode já ser tarde demais. 🦅\n\nOs ácidos atacam o verniz em 2-3 horas sob sol direto — e quando secam, marcam a pintura de forma permanente. Vemos isto todas as semanas aqui na oficina em São Domingos de Rana: manchas circulares que já não saem com uma lavagem normal.\n\nA dica? Tem sempre um spray de água e um pano de microfibra no porta-bagagens. Humedece, espera 30 segundos, limpa com toque suave. Nunca esfregues a seco — o grão do próprio dejeto risca o verniz como lixa. ✨\n\nQuando já ficou a marca, aí é correção de pintura. Mas prevenir custa €0.\n\nhttps://mm-detalhe.vercel.app\n#AutoDetailing #MMDetalheAutomóvel #SãoDomingosdeRana",
+          "linkedin": "Had a 2019 BMW come in last week with paint so swirled it looked frosted under the shop lights. The owner ran it through automatic washes every Saturday. Those brushes pull grit from every car before him and drag it across yours. One hand wash with two buckets beats that. Prevention costs less than correction.\n\nhttps://mm-detalhe.vercel.app #AutoDetailing"
+        }
+      },
+      {
+        "id": "02-service-spotlight",
+        "contentType": "service-spotlight",
+        "contentLabel": "Exterior Wash",
+        "media": {
+          "type": "data-carousel",
+          "slides": 5
+        },
+        "images": [
+          "/socials/02-service-spotlight/instagram-1.jpg",
+          "/socials/02-service-spotlight/instagram-2.jpg",
+          "/socials/02-service-spotlight/instagram-3.jpg"
+        ],
+        "captions": {
+          "instagram": "Duas horas. Esse é o tempo que demoramos a lavar um carro. 🕐\n\nE não, não estamos a ser lentos. Estamos a fazer bem.\n\nComeçamos com descontaminação — tiramos partículas de ferro e alcatrão que se agarram à tinta ao longo dos meses. Depois jantes a fundo, lavagem e secagem à mão com microfibra. Sem escovas. Sem riscos. Sem marcas de água.\n\nO resultado? Um carro que brilha de todos os ângulos — como saiu da fábrica, mas melhor tratado.\n\nO teu carro merece mais do que cinco minutos num túnel de lavagem. 💧\n\nLink in bio 👆\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana #Portugal #NegóciosLocais #DetalheAutomóvel #LavagemAuto #CarDetailing #CarroLimpo #Cascais #Oeiras #AutoCare #DetailingPortugal #PaintCorrection",
+          "facebook": "Sabes aquela sensação de entrar num carro recém-lavado? Não é só o brilho — é a textura do volante, a forma como a luz bate na pintura, o cheiro a limpo. 🚗✨\n\nNa M M Detalhe Automóvel, a nossa lavagem exterior completa não é passar uma esponja e seguir. Começamos com descontaminação profunda — partículas de ferro e alcatrão que se agarram à tinta ao longo dos meses saem primeiro. Depois jantes a fundo, lavagem e secagem à mão, sem escovas, sem riscos, sem marcas de água.\n\nDuas horas a cuidar do teu carro como se fosse nosso. O resultado? Brilho de todos os ângulos — e uma pintura que dura muito mais tempo. 💧\n\nQuando foi a última vez que levaste o teu carro a sério?\n\nhttps://mm-detalhe.vercel.app\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana",
+          "linkedin": "A customer once asked why our exterior wash takes two hours. Fair question. Most of that time is decontamination — iron particles and tar bonded to the paint that a touchless tunnel never touches. Hand dry, microfiber, no brushes, no swirl marks. The car leaves gleaming, and the paint holds up season after season.\n\nhttps://mm-detalhe.vercel.app #AutoDetailing"
+        }
+      },
+      {
+        "id": "03-milestone",
+        "contentType": "milestone",
+        "contentLabel": "Years",
+        "media": {
+          "type": "data-carousel",
+          "slides": 5
+        },
+        "images": [
+          "/socials/03-milestone/instagram-1.jpg",
+          "/socials/03-milestone/instagram-2.jpg",
+          "/socials/03-milestone/instagram-3.jpg"
+        ],
+        "captions": {
+          "instagram": "8 anos a tratar de carros em São Domingos de Rana. 🚗✨\n\nA primeira correção de pintura séria que fiz demorou-me um fim de semana inteiro. Hoje, a mesma correção é rotina — mas a sensação de entregar o carro ao cliente e ver a cara dele continua exatamente igual à do primeiro dia.\n\nAo longo destes anos aprendi que detailing não é só polir tinta. É devolver ao carro aquela sensação de quando saiu do stand — e, às vezes, melhor ainda.\n\nObrigado a cada cliente que nos trouxe as chaves. Vocês fizeram o M M Detalhe Automóvel aquilo que é hoje. 🙏\n\nLink in bio 👆\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana #Portugal #NegóciosLocais #CeramicCoating #PaintCorrection #CarDetailing #DetailingPortugal #CarCare #Cascais #DetailingLisboa #CarEnthusiast",
+          "facebook": "8 anos. 🎉\n\nQuando abrimos o M M Detalhe Automóvel em São Domingos de Rana, nunca imaginei que íamos chegar aqui com clientes que já nos trazem o segundo — e até o terceiro — carro. Há quem passe duas vezes por ano para a manutenção do ceramic coating, e há quem traga o carro novinho do stand antes sequer de o levar a casa.\n\nObrigado a cada pessoa que confiou nas nossas mãos. Sem vocês, isto era só uma oficina. 🙏\n\nSe ainda não conheces o nosso trabalho, passa pelo site — está lá tudo, desde correção de pintura a restauro interior completo. Qual foi o melhor detalhamento que já fizeste ao teu carro?\n\nhttps://mm-detalhe.vercel.app\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana",
+          "linkedin": "Eight years ago I opened M M Detalhe Automóvel with one polisher and a rented garage in São Domingos de Rana. The first ceramic coating I ever did took me twelve hours — today it takes four. What hasn't changed is the feeling when a customer sees their car finished. Thank you to every client who trusted us with their keys.\n\nhttps://mm-detalhe.vercel.app #AutoDetailing"
+        }
+      },
+      {
+        "id": "04-service-spotlight",
+        "contentType": "service-spotlight",
+        "contentLabel": "Interior Detail",
+        "media": {
+          "type": "carousel",
+          "slides": 3
+        },
+        "images": [
+          "/socials/04-service-spotlight/instagram-1.jpg",
+          "/socials/04-service-spotlight/instagram-2.jpg",
+          "/socials/04-service-spotlight/instagram-3.jpg"
+        ],
+        "captions": {
+          "instagram": "Há coisas no interior do teu carro que tu já não consegues ver.\n\nPó agarrado às condutas do ar condicionado. Bactérias acumuladas no volante. Tecidos que absorveram três anos de cafés, conversas e dias maus de trânsito.\n\nUm detalhe interior completo muda isto: aspiração profunda, tratamento do dashboard, tecidos e couro condicionados, sanitização total do habitáculo.\n\nO teu carro não vai só parecer limpo. Vai estar saudável.\n\nLink in bio 👆\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana #Portugal #NegóciosLocais #DetalheAutomóvel #LimpezaAutomóvel #CarrosPortugal #CarLovers #AutoCare #InteriorDetail #Cascais #Oeiras",
+          "facebook": "Sabes aqueles cheiros que já nem notas no teu próprio carro? A combinação do café derramado na semana passada, do saco do ginásio no banco de trás, das migalhas das crianças há dois meses. 🚗\n\nO interior acumula muito mais do que parece — pó agarrado às condutas do ar condicionado, bactérias no volante, estofos impregnados. Um detalhe interior completo faz aspiração profunda, tratamento do dashboard, condicionamento de tecidos e couro, e sanitização total.\n\nNo fim, entras e parece que compraste o carro ontem. Não é só estética — é higiene. 💡\n\nQuando foi a última vez que fizeste uma limpeza mesmo profunda ao interior?\n\n#AutoDetailing #SãoDomingosdeRana #NegóciosLocais\n\nhttps://mm-detalhe.vercel.app",
+          "linkedin": "A client brought in an SUV last month — two kids, three years of daily drives, a cabin that had seen better days. Coffee stains in the fabric, dust ground into the dashboard vents. Nine hours later: deep vacuum, leather conditioned, every surface sanitized. He called it \"a new car\". That is what an honest interior detail actually does. https://mm-detalhe.vercel.app #AutoDetailing"
+        }
+      },
+      {
+        "id": "05-review-highlight",
+        "contentType": "review-highlight",
+        "contentLabel": "Review by Victor Arefiev",
+        "media": {
+          "type": "single",
+          "slides": 1
+        },
+        "images": [
+          "/socials/05-review-highlight/instagram.jpg"
+        ],
+        "captions": {
+          "instagram": "⭐⭐⭐⭐⭐\n\n\"Atendimento espetacular e com muita atenção ao detalhe.\"\n\nFoi assim que o Victor começou a review dele. E sinceramente? É a frase que queremos ouvir todos os dias.\n\nPorque o nome diz tudo: Detalhe Automóvel. O detalhe é o trabalho. É a parte invisível que faz o cliente sair da oficina e dizer \"isto está como novo\". ✨\n\nEquipa simpática, profissionalismo irrepreensível, preços competitivos — o Victor mencionou tudo. Mas a \"atenção ao detalhe\" foi o que mais nos tocou.\n\nObrigado pela confiança. 🙏\n\nLink in bio 👆\n\n#MMDetalheAutomóvel #AutoDetailing #DetalheAutomóvel #SãoDomingosdeRana #Cascais #LavagemAuto #DetailingPortugal #EstéticaAutomóvel #CarDetailing #Portugal #NegóciosLocais #5Estrelas",
+          "facebook": "Cinco estrelas do Victor. ⭐⭐⭐⭐⭐\n\nMas o que nos marcou na review dele não foi a pontuação — foi a frase \"muita atenção ao detalhe\".\n\nNum negócio chamado Detalhe Automóvel, esta é precisamente a parte que não pode falhar. É o cantinho da janela traseira que ninguém vê. É a costura do banco que recupera o brilho original. É o tempo extra que a equipa dedica a cada carro porque sim, faz a diferença. 🚗✨\n\nObrigado, Victor. Reviews assim fazem-nos querer subir ainda mais a fasquia.\n\nE vocês, qual é o pormenor que mais valorizam quando entregam o carro a alguém?\n\nhttps://mm-detalhe.vercel.app\n\n#MMDetalheAutomóvel #AutoDetailing #SãoDomingosdeRana",
+          "linkedin": "A 5-star review landed this week from Victor, and the line that stopped me was 'atenção ao detalhe' — attention to detail. That's the exact phrase I built this business around. When a customer spots the thing you obsess over daily, you know the standard is landing. The whole team carries it on every car that rolls through. Grateful.\n\nhttps://mm-detalhe.vercel.app #AutoDetailing"
+        }
+      }
     ]
   }
 }
